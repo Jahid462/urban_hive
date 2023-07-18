@@ -1,0 +1,110 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kalam:wght@400;700&display=swap');
+
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Kalam', cursive; */
+
+  /* ----------Default Styles------------- */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam', cursive;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* ----------------Header Section--------------- */
+
+.header_section{
+    background-color: #555555;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo .main_logo{
+    font-size: 3rem;
+}
+.logo h1{
+    font-size: 2.2rem;
+    color: #f0f8ff;
+    padding-left: 10px;
+}
+.logo h1 span{
+    color: #c16f0f;
+}
+.logo img{
+    max-width: 50px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.menu li a{
+    color: #f0f8ff;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.menu li a:hover{
+    color: #cd7200;
+}
+.menu .login{
+    padding: 6px 15px;
+    border-radius: 10px;
+    background-color: #cd7200;
+    transition: .2s all ease-in-out;
+}
+.menu .login:hover{
+    background-color: #a35a00;
+    color: #f0f8ff;
+}
+.menu .login i{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
