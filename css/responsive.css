@@ -3,14 +3,21 @@
 
 
 
-    
+
 }
 
 
 @media screen and (min-width: 993px) and (max-width: 1399px) {
 
-
-
+    .navbar{
+        padding: 15px 30px;
+    }
+    .banner_content h1{
+        font-size: 4rem;
+    }
+    .banner_content p{
+        font-size: 2rem;
+    }
 
 
 
@@ -19,18 +26,55 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
-
-
-
-
+    .menu{
+        gap: 50px;
+    }
+    .navbar{
+        padding: 15px 30px;
+    }
+    .banner_section{
+        padding: 30px;
+    }
+    .banner_content h1{
+        font-size: 4rem;
+    }
+    .banner_content p{
+        font-size: 2rem;
+    }
 
 
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
 
-
-
+    .navbar, .menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navbar{
+        padding: 30px 10px;
+    }
+    .banner_section{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .banner_content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner_content h1{
+        font-size: 2.5rem;
+    }
+    .banner_content p{
+        font-size: 2rem;
+    }
+    .banner_img{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .banner_content .btn{
+        padding: 8px 15px;
+    }
 
 
 
@@ -46,6 +90,29 @@
     .navbar{
         padding: 30px 10px;
     }
-
+    .banner_section{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .banner_content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner_content h1{
+        font-size: 2.5rem;
+    }
+    .banner_content p{
+        font-size: 2rem;
+    }
+    .banner_img{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .banner_content .btn{
+        padding: 8px 15px;
+    }
+    .btn{
+        margin-top: 5px;
+    }
 
 }
